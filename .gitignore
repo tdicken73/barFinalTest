@@ -1,0 +1,13 @@
+target
+.classpath
+.project
+.metadata
+*.log
+*~
+bin-debug
+bin-release
+svn
+.svnrepo
+.DS_Store
+.settings
+.gwt
