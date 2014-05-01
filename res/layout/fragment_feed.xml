@@ -1,0 +1,55 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentFeed" >
+
+    <RelativeLayout
+        android:id="@+id/footerHungry"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="bottom"
+        android:background="@color/grey_dark"
+        android:baselineAligned="true" >
+
+        <ListView
+            android:id="@+id/postList"
+            android:layout_width="fill_parent"
+            android:layout_height="361dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:smoothScrollbar="true" >
+
+    	</ListView>
+        
+        <EditText
+            android:id="@+id/postText"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="29dp"
+            android:layout_marginLeft="29dp"
+            android:inputType="text"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/postButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/postText"
+            android:layout_marginLeft="11dp"
+            android:layout_toRightOf="@+id/postText"
+            android:text="Post" />
+
+    </RelativeLayout>
+
+    
+    
+</TableLayout>
