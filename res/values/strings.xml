@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+<<<<<<< HEAD
     <string name="app_name">BarHopper</string>
     <string name="title_section1">BarHopper</string>
     <string name="title_section2">Live Feed</string>
@@ -8,12 +9,23 @@
     <string name="fragment_bar">Bar Page</string>
     <string name="mybar">My Bars</string>
     
+=======
+    <string name="app_name">FoodCycle</string>
+    <string name="title_section1">FoodCycle</string>
+    <string name="title_section2">Hungry?</string>
+    <string name="fragment_inventory">Manage Inventory</string>
+    <string name="fragment_shop">Manage Shopping List</string>
+    <string name="inventory">Inventory</string>
+    
+    <string name="action_camera">Camera</string>
+>>>>>>> fd371eac7a681fc51fd102e9f15c313c381d3683
     <string name="action_add">Add</string>
     <string name="action_minus">Remove</string>
     <string name="action_settings">Settings</string>
     
     <string name="fragment_settings">Settings</string>
     
+<<<<<<< HEAD
     <string name="addNameTextView">Name of Bar</string>
     <string name="addTypeTextView">Type of Bar</string>
     <string name="addAddressTextView">Address</string>
@@ -23,6 +35,15 @@
     <string name="removeNameTextView">Name of Bar</string>
     <string name="removeCountTextView">Address</string>
     <string name="remove_submit">"Remove"</string>
+=======
+    <string name="addTypeTextView">Whatcha Adding?</string>
+    <string name="addCountTextView">How Many?</string>
+    <string name="add_submit">"Add 'em"</string>
+    
+    <string name="removeTypeTextView">What do you need gone?</string>
+    <string name="removeCountTextView">How Many?</string>
+    <string name="remove_submit">"Take 'em Out"</string>
+>>>>>>> fd371eac7a681fc51fd102e9f15c313c381d3683
     
     
 

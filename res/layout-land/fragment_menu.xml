@@ -20,7 +20,11 @@
         <!-- removes button border but leaves blue click background -->
 
         <ImageView
+<<<<<<< HEAD
             android:id="@+id/barpage_button"
+=======
+            android:id="@+id/inventory_button"
+>>>>>>> fd371eac7a681fc51fd102e9f15c313c381d3683
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"

@@ -20,7 +20,11 @@
         <!-- removes button border but leaves blue click background -->
 
         <ImageView
+<<<<<<< HEAD
             android:id="@+id/barpage_button"
+=======
+            android:id="@+id/inventory_button"
+>>>>>>> fd371eac7a681fc51fd102e9f15c313c381d3683
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -28,6 +32,18 @@
             android:background="@null"
             android:src="@drawable/inventory" />
 
+<<<<<<< HEAD
+=======
+        <ImageView
+            android:id="@+id/recipes_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:src="@drawable/recipes" />
+
+>>>>>>> fd371eac7a681fc51fd102e9f15c313c381d3683
     </TableRow>
 
     <TableRow
